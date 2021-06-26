@@ -26,7 +26,6 @@ import android.content.DialogInterface;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -34,6 +33,8 @@ import android.widget.Toast;
 
 import com.kaopiz.kprogresshud.KProgressHUD;
 import com.kaopiz.progresshud.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
